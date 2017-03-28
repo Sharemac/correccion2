@@ -53,21 +53,10 @@ public class Modificable_parcial {
         
         }
    aviatur.ListarViajes(a, travel);
-            /*System.out.println(airSalida);
-            System.out.println(airLlegada);
-            System.out.println(airsalida);
-            System.out.println(airllegada);*/
+   aviatur.MayorMenorduracion(a, travel);
+            
     }
-     /*  
-
-        
-        TravelAgency aviatur = new TravelAgency("Aviatur");
-        Hotel fon = new Hotel("Fontanar","Cra 21 a # 159 a - 28" );
-        Travel rionegro = new Travel("22/03/2017", 30, fon);
-        Airport salida = new Airport("Jose Maria Cordoba");
-        Airport llegada = new Airport("El Dorado");
-        BookedFlight reserva = new BookedFlight(1345, 1411, "22/03/2017", "22/03/2017",salida, llegada);
-       aviatur.ListarViajes( reserva, llegada, salida);*/
+     
     }
     
 
